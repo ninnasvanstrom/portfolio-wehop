@@ -1,39 +1,4 @@
-@font-face {
-    font-family: 'Helvetica Now Medium';
-    src: url(/fonts/HelveticaNow/HelveticaNowDisplay-Medium.ttf);
-
-    font-family: 'Helvetica Now Regular';
-    src: url(/fonts/HelveticaNow/HelveticaNowDisplay-Regular.ttf);
-
-     font-family: 'Helvetica Now Thin';
-    src: url(/fonts/HelveticaNow/HelveticaNowDisplay-Thin.ttf);
-
-    font-family: 'General Sans Semibold';
-    src: url(/fonts/GeneralSans/GeneralSans-Semibold.otf);
-
-    font-family: 'General Sans Medium';
-    src: url(/fonts/GeneralSans/GeneralSans-Medium.otf);
-
-    font-family: 'Coustard Bold';
-    src: url(/fonts/Coustard/Coustard-Black.ttf);
-    
-    font-family: 'Coustard Regular';
-    src: url(/fonts/Coustard/Coustard-Regular.ttf);
-
-    
-}
-
-@font-face {
-    font-family: 'General Sans Bold 2';
-    src: url(/fonts/GeneralSans2/GeneralSans-Bold.woff);
-}
-
-@font-face {
-    font-family: 'General Sans Light Italic';
-    src: url(/fonts/GeneralSans2/GeneralSans-LightItalic.woff);
-}
-
-@import url('https://fonts.cdnfonts.com/css/general-sans');
+@import url('https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=Fredoka:wght@300;400&family=Hahmlet:wght@200;300;400&family=Lora:wght@400;500&family=Lustria&family=Nanum+Myeongjo:wght@400;700&family=Orbitron&family=Poppins:wght@200;300;400;600;700&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;300;400;500;600&family=Roboto:wght@300&family=Varela+Round&display=swap');
 
 
 /* DEFAULT */
@@ -80,8 +45,9 @@ main h1 {
 }
 
 main .keywords {
-    font-family: 'Helvetica Now Medium';
-    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
     margin-top: 25px;
     color: rgba(51, 51, 51, 0.74);
     text-transform: uppercase;
@@ -132,8 +98,9 @@ main .project-info-container  {
 
 /* PROJECT OVERVIEW */
 main .project-info-container .overview-section .introduction {
-    font-family: 'Helvetica Now Medium';
-    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
     text-transform: uppercase;
     color: rgba(51, 51, 51, 0.74);
    
@@ -149,20 +116,23 @@ main .project-info-container .overview-section .grid {
 
 main .project-info-container .overview-section p {
     margin-top: 20px ;
-    font-family: 'Helvetica Now Thin';
-    font-size: 18px;
-    line-height: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 35px;
 }
 
 main .project-info-container .overview-section p span {
-    font-family: 'Helvetica Now regular';
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     color: rgba(0, 0, 0, 0.791);
 }
 
 
 main .project-info-container .overview-section .grid h2 {
-    font-family: 'Helvetica Now Medium';
-    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
     text-transform: uppercase;
     color: rgba(51, 51, 51, 0.74);
     margin-bottom: 20px;
@@ -173,8 +143,9 @@ main .project-info-container .overview-section .grid .section  {
 }
 
 main .project-info-container .overview-section .grid p, .tools-list li {
-    font-family: 'Helvetica Now Thin';
-    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
     color: rgb(51, 51, 51);
     line-height: 30px;
     max-width: 500px;
@@ -188,13 +159,15 @@ main .project-info-container .overview-section .grid p, .tools-list li {
 
 main .project-info-container .design-process-section .the-design-process {
     margin-top: 100px;
-    font-family: 'Helvetica Now Medium';
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     font-size: 80px;
 
 }
 
 main .project-info-container .design-process-section .design-process-headline {
-    font-family: 'Helvetica Now Medium';
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     font-size: 60px;
     color: #333;
     text-transform: lowercase;
@@ -207,12 +180,13 @@ main .project-info-container .design-process-section .design-process-headline {
 
 main .project-info-container .design-process-section .design-process-subheadline{
     font-family: 'General Sans Medium';
-    font-size: 20px;
+    font-size: 18px;
     /* color: #333; */
     color: rgba(51, 51, 51, 0.74);
     margin-top: 30px;
 
-    font-family: 'Helvetica Now Regular';
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     /* font-size: 20px;
     text-transform: uppercase; */
     color: rgba(51, 51, 51, 0.74);
@@ -220,8 +194,9 @@ main .project-info-container .design-process-section .design-process-subheadline
 
 
 main .project-info-container .design-process-section p {
-    font-family: 'Helvetica Now Thin';
-    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
     color: #333;
     margin-top: 10px;
     line-height: 30px;
@@ -229,7 +204,8 @@ main .project-info-container .design-process-section p {
 }
 
 main .project-info-container .design-process-section span {
-    font-family: 'Helvetica Now Regular';
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 }
 
 
@@ -297,8 +273,9 @@ main .project-info-container .design-process-section #style-guide {
 
 
 main .project-info-container .design-process-section .grid h6{
-    font-family: 'Helvetica Now Medium';
-    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
     text-transform: uppercase;
     color: rgba(51, 51, 51, 0.74);
 
@@ -310,7 +287,8 @@ main .project-info-container .design-process-section .grid h6{
 main .project-info-container .design-process-section .grid .colors .color-palette, h5 {
     margin-top: 30px;
 
-    font-family: 'Helvetica Now Regular';
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     font-size: 15px;
 }
 
@@ -332,7 +310,8 @@ main .project-info-container .design-process-section .grid .colors .color-palett
 
 main .project-info-container .design-process-section .grid .colors .color-palette p{
     font-size: 12px;
-    font-family: 'Helvetica Now Regular';
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -378,7 +357,8 @@ main .project-info-container .design-process-section .grid .fonts .secondary-fon
 }
 
 main .project-info-container .design-process-section .grid .fonts span{
-    font-family: 'Helvetica Now Regular';
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 
 }
 
@@ -389,7 +369,8 @@ main .project-info-container .design-process-section .wehop-instructions {
 
 main .project-info-container .design-process-section .wehop-instructions li {
     margin-top: 80px;
-    font-family: 'Helvetica Now Thin';
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
     font-size: 18px;
     color: #333;
     margin-top: 10px;
@@ -406,9 +387,20 @@ main .project-info-container .design-process-section .wehop-instructions ul {
 
 }
 
+
+
+main .project-info-container .design-process-section .wehop-instructions ul li {
+
+    font-size: 15px;
+    margin-top: 18px;
+
+
+}
+
 main .project-info-container .design-process-section .wehop-instructions li span {
 
-    font-family: 'Helvetica Now regular';
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 
 
 }
@@ -502,7 +494,7 @@ main .project-info-container .design-process-section .img-container-2 {
     position: absolute;
     left: 0;
     right: 0;
-    top: 11200px;
+    top: 10900px;
     width: 100%;
     height: 800px;
     overflow: hidden;
@@ -535,7 +527,7 @@ main .project-info-container .design-process-section .img-container-2 img:hover 
 
 
 footer {
-   margin-top: 1500px;
+   margin-top: 1200px;
 }
     
 
